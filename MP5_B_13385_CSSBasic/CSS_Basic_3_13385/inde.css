@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(32, 99, 174);
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* style yang diatur pada body adalah warna latar belakang, minimum tinggi halaman, dan margin */
+
+#informasi {
+    box-shadow: 0 0.5px 1px 0 rgb(48, 77, 142);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 30px 5px 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(73, 73, 73);
+    text-align: center;
+}
+
+/* style yang diatur pada #informasi adalah warna latar belakang, bayangan kotak, padding, jenis font, ketebalan font, warna teks, dan posisi teks */
+
+#informasi h1 {
+    text-align: center;
+    background-color: rgb(37, 108, 188);
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: -20px;
+    padding: 20px 0;
+    color: white;
+}
+
+/* style yang diatur pada #informasi h1 adalah posisi teks, warna latar belakang, margin, padding, dan warna teks */
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(201, 218, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    transition: all 0.2s linear;
+}
+
+/* style yang diatur pada .link adalah display, posisi tombol, posisi teks, lebar tombol, margin, padding, border, kelengkungan sudut border, kursor, warna latar belakang, jenis font, ketebalan font, dan transisi efek ketika mouse diarahkan ke tombol */
+
+.link a {
+    text-decoration: none;
+    color: rgb(32, 99, 174);
+}
+
+/* style yang diatur pada .link a adalah warna teks dan dekorasi teks untuk menghilangkan garis bawah link */
+
+.link:hover {
+    background-color: rgb(27, 79, 142);
+    transform: scale(1.05);
+}
+
+.link:hover a {
+    color: white;
+}
+
+/* style yang diatur pada .link:hover adalah warna latar belakang ketika mouse diarahkan ke tombol, warna teks link, dan efek zoom */
