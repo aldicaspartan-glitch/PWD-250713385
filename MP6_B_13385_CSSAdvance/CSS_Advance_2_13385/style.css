@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 30px;
+}
+
+.container{
+    width: 850px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #cccccc;
+}
+
+h1{
+    text-align: center;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.info{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #555555;
+}
+
+h3{
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+td{
+    border: 1px solid #dddddd;
+    padding: 12px;
+}
+
+td:first-child{
+    width: 30%;
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea,
+input[type="file"]{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea{
+    resize: vertical;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    margin: 8px;
+}
+
+.center{
+    text-align: center;
+}
+
+input[type="submit"]{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #0056b3;
+}

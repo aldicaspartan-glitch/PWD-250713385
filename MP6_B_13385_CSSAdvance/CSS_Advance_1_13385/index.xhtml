@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <title>Formulir Rekrutmen Organisasi Mahasiswa</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Formulir Rekrutmen Organisasi Mahasiswa</h1>
+    <p class="subtitle">
+        Silakan lengkapi data diri berikut untuk mengikuti proses pendaftaran anggota organisasi.
+    </p>
+
+    <form action="" method="post" enctype="multipart/form-data">
+
+        <table>
+
+            <tr>
+                <td>Nama Peserta</td>
+                <td><input type="text" name="nama" /></td>
+            </tr>
+
+            <tr>
+                <td>Nomor Induk Mahasiswa (NIM)</td>
+                <td><input type="text" name="nim" /></td>
+            </tr>
+
+            <tr>
+                <td>Program Studi</td>
+                <td>
+                    <select name="prodi">
+                        <option>Informatika</option>
+                        <option>Sistem Informasi</option>
+                        <option>Teknik Industri</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Email Aktif</td>
+                <td><input type="text" name="email" /></td>
+            </tr>
+
+            <tr>
+                <td>Nomor HP/WhatsApp</td>
+                <td><input type="text" name="telepon" /></td>
+            </tr>
+
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>
+                    <input type="radio" name="jk" value="Laki-Laki" /> Laki-Laki
+                    <br />
+                    <input type="radio" name="jk" value="Perempuan" /> Perempuan
+                </td>
+            </tr>
+
+            <tr>
+                <td>Semester Saat Ini</td>
+                <td>
+                    <select name="semester">
+                        <option>Semester 1</option>
+                        <option>Semester 2</option>
+                        <option>Semester 3</option>
+                        <option>Semester 4</option>
+                        <option>Semester 5</option>
+                        <option>Semester 6</option>
+                        <option>Semester 7</option>
+                        <option>Semester 8</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Bidang yang Diminati</td>
+                <td>
+                    <input type="radio" name="divisi" value="Acara" /> Acara
+                    <br />
+                    <input type="radio" name="divisi" value="SDM" /> SDM
+                    <br />
+                    <input type="radio" name="divisi" value="Humas" /> Humas
+                    <br />
+                    <input type="radio" name="divisi" value="Media" /> Media Kreatif
+                </td>
+            </tr>
+
+            <tr>
+                <td>Riwayat Pengalaman</td>
+                <td>
+
+                    <strong>Kegiatan</strong>
+                    <br />
+
+                    <input type="checkbox" name="pengalaman" value="Kepanitiaan" />
+                    Kepanitiaan
+
+                    <br />
+
+                    <input type="checkbox" name="pengalaman" value="Organisasi" />
+                    Organisasi
+
+                    <br />
+
+                    <input type="checkbox" name="pengalaman" value="Volunteer" />
+                    Volunteer
+
+                    <br /><br />
+
+                    <strong>Keahlian</strong>
+                    <br />
+
+                    <input type="checkbox" name="kemampuan" value="Public Speaking" />
+                    Public Speaking
+
+                    <br />
+
+                    <input type="checkbox" name="kemampuan" value="Desain" />
+                    Desain Grafis
+
+                    <br />
+
+                    <input type="checkbox" name="kemampuan" value="Fotografi" />
+                    Fotografi
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>Motivasi Bergabung</td>
+                <td>
+                    <textarea name="alasan" rows="6" cols="35"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Unggah CV (PDF)</td>
+                <td>
+                    <input type="file" name="cv" />
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" class="tombol">
+                    <input type="submit" value="Kirim Pendaftaran" />
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</div>
+
+</body>
+</html>

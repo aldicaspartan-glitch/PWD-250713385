@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulir Registrasi Workshop Teknologi</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Formulir Registrasi Workshop Teknologi</h1>
+
+<p class="info">
+Silakan lengkapi data berikut untuk mengikuti kegiatan workshop.
+</p>
+
+<form action="" method="post">
+
+<h3>Informasi Peserta</h3>
+
+<table>
+
+<tr>
+<td>Nama Lengkap</td>
+<td><input type="text" name="nama" /></td>
+</tr>
+
+<tr>
+<td>NIM</td>
+<td><input type="text" name="nim" /></td>
+</tr>
+
+<tr>
+<td>Jenis Kelamin</td>
+<td>
+<input type="radio" id="laki" name="jk" value="Laki-Laki" />
+<label for="laki">Laki-Laki</label>
+
+<input type="radio" id="perempuan" name="jk" value="Perempuan" />
+<label for="perempuan">Perempuan</label>
+</td>
+</tr>
+
+<tr>
+<td>Program Studi</td>
+<td>
+<select name="prodi">
+<option>Informatika</option>
+<option>Sistem Informasi</option>
+<option>Teknik Industri</option>
+</select>
+</td>
+</tr>
+
+</table>
+
+<h3>Program Workshop</h3>
+
+<table>
+
+<tr>
+<td>Kategori Peserta</td>
+<td>
+
+<input type="radio" id="mahasiswa" name="peserta" value="Mahasiswa" />
+<label for="mahasiswa">Mahasiswa</label>
+
+<input type="radio" id="umum" name="peserta" value="Umum" />
+<label for="umum">Umum</label>
+
+</td>
+</tr>
+
+<tr>
+<td>Pilihan Materi</td>
+<td>
+
+<input type="checkbox" id="uiux" name="materi" value="UI/UX Design" />
+<label for="uiux">UI/UX Design</label>
+
+<br />
+
+<input type="checkbox" id="webdev" name="materi" value="Web Development" />
+<label for="webdev">Web Development</label>
+
+<br />
+
+<input type="checkbox" id="dataanalysis" name="materi" value="Data Analysis" />
+<label for="dataanalysis">Data Analysis</label>
+
+</td>
+</tr>
+
+</table>
+
+<h3>Data Pendukung</h3>
+
+<table>
+
+<tr>
+<td>Motivasi Mengikuti Workshop</td>
+<td>
+<textarea name="alasan" rows="5" cols="40"></textarea>
+</td>
+</tr>
+
+<tr>
+<td>Metode Pembayaran</td>
+<td>
+
+<input type="radio" id="qris" name="pembayaran" value="QRIS" />
+<label for="qris">QRIS</label>
+
+<input type="radio" id="transfer" name="pembayaran" value="Transfer Bank" />
+<label for="transfer">Transfer Bank</label>
+
+</td>
+</tr>
+
+<tr>
+<td>Upload Bukti Pembayaran</td>
+<td>
+<input type="file" name="bukti" />
+</td>
+</tr>
+
+<tr>
+<td colspan="2" class="center">
+<input type="submit" value="Kirim Pendaftaran" />
+</td>
+</tr>
+
+</table>
+
+</form>
+
+</div>
+
+</body>
+</html>
